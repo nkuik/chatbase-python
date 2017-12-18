@@ -97,7 +97,7 @@ class TestMessage(unittest.TestCase):
                     user_id="12345")
         resp = i.send()
         self.assertEqual(resp.status_code, 200)
-    
+
     def test_live_set_send(self):
         test_api_key = os.environ.get('CB_TEST_API_KEY')
         if test_api_key is None:
