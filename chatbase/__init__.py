@@ -13,3 +13,8 @@
 # limitations under the License.
 
 """Init handles module initialization."""
+
+from chatbase.base_message import *
+from chatbase.facebook_agent_message import *
+from chatbase.facebook_chatbase_fields import *
+from chatbase.facebook_user_message import *
